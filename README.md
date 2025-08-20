@@ -1,24 +1,33 @@
-<!-- Hero Section with small profile pic -->
+<!-- Hero Section with small circular profile pic & typing animation -->
 <p align="center">
   <img src="https://scontent.fdac99-1.fna.fbcdn.net/v/t39.30808-6/535360471_782983341355248_6492934059619662196_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEnBEbj4ccH_yKR9pZdbbvauzZ5e-vIi9S7Nnl768iL1JGALv_L1kHeKw6HOFaa_jx4LeOslseIYvQyCNp3T8a2&_nc_ohc=wkikjwWweYMQ7kNvwGIY1xB&_nc_oc=AdmoY0C1bYzSbTYeToGFDiV5iUd5d8UMsSDuuLOWzS44DJdNUEZdoQu2ef0aW7BZ5i8&_nc_zt=23&_nc_ht=scontent.fdac99-1.fna&_nc_gid=80cgIyIvtczKRg19bF2DLA&oh=00_AfVY3UIIAgfffjQUGjCalGDo-VP8tW-Qb5LhrceXtmcxcQ&oe=68AA2705" alt="Nowrin" width="120" style="border-radius:50%">
 </p>
 
-<h1 align="center">Hi there 👋, I'm Maksuda Sultana Nowrin</h1>
-<h3 align="center">Web Developer | CSE Undergraduate | Full-Stack Enthusiast</h3>
+<h1 align="center">Hi there 👋, I'm <span style="background: linear-gradient(to right, #FF6B6B, #FFD93D); -webkit-background-clip: text; color: transparent;">Maksuda Sultana Nowrin</span></h1>
 
----
+<h3 align="center">
+  <span id="typing"></span>
+</h3>
 
-<p align="center">
-🌱 Currently learning <b>JavaScript, Python & Angular</b> | 🚀 Exploring Full-Stack Development
-</p>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+var typed = new Typed('#typing', {
+  strings: ["Web Developer 💻", "Full-Stack Enthusiast 🌐", "AI & Tech Lover 🤖"],
+  typeSpeed: 60,
+  backSpeed: 40,
+  loop: true
+});
+</script>
 
----
+<!-- Full body section with gradient dark background -->
+<div style="background: linear-gradient(135deg, #1e1e2f, #2a2a3c); padding:25px; border-radius:10px;">
 
 ### About Me
 - 🎓 CSE Undergraduate  
 - 💻 Passionate about Web Development & Artificial Intelligence  
+- 🌱 Currently learning **JavaScript, Python & Angular**  
+- 🚀 Exploring Full-Stack Development & Modern Web Technologies  
 - ✨ Goal: Build secure, impactful, and innovative solutions  
-- 💬 Ask me about Front-end Web Development  
 
 ---
 
@@ -74,8 +83,7 @@
   <img src="https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif" width="35" height="35">
 </p>
 
----
-
 <p align="center">
   Made with ❤️ by <b>Maksuda Sultana Nowrin</b>
 </p>
+</div>
